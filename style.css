@@ -1,0 +1,165 @@
+html, body {
+    margin: 0;
+}
+
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Verdana, Helvetica, Comic Sans MS, KOMIKAHB.ttf;
+}
+
+fieldset
+  {
+    background-color: lightgray;
+    width:300px;
+    height:250px;
+  }
+
+#formulario label
+  {
+    position:absolute;
+    left:19px;
+    margin-right:5px;
+  }
+  
+#formulario input.button_submit
+  {
+    position:absolute;
+    background-color: #00B5FF;
+  }
+  
+  #formulario button.button_reset
+  {
+    position:absolute;
+    margin-left: 60px;
+    background-color: #00B5FF;
+  }
+
+  #formulario label
+  {
+    position:absolute;
+    left: 225px;
+    margin-right:5px;
+  }
+
+  #formulario input.campo_nome
+  {
+    background-color: #f1f1f1;
+    position:absolute;
+    left: 300px;
+    margin-top: 2px;
+    height: 10px;
+  }
+  
+  #formulario input.campo_email
+  {
+    background-color: #f1f1f1;
+    position:absolute;
+    left: 300px;
+    margin-top: 2px;
+    height: 10px;
+  }
+  
+  #formulario input.campo_assunto
+  {
+    background-color: #f1f1f1;
+    position:absolute;
+    left: 300px;
+    margin-top: 2px;
+    height: 10px;
+  }
+  
+  .msg
+  {
+    background-color: #f1f1f1;
+    margin-top: 22px;
+  }
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: DodgerBlue;
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: black;
+    min-height: 150px;
+}
+.content {
+    background-color: RGB(135,206,250);
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: #00B5FF;
+    min-height: 150px;
+}
+
+.email {
+  list-style-image: url("icone email.svg");
+  text-decoration: none;
+}
+
+.whatsapp {
+  list-style-image: url("icone whatsapp.svg");
+  text-decoration: none;
+}
+
+.instagram {
+  list-style-image: url("icone instagram.svg");
+  text-decoration: none;
+}
+
+.facebook {
+  list-style-image: url("icone facebook.svg");
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.paginas {
+  background-color: black;
+  text-decoration: none;
+  color: white;
+}
+
+.table thead th {
+  background-color: Black;
+  color: white;
+      }
+      
+.table {
+  -webkit-box-shadow: 12px 14px 6px 5px rgba(0,0,0,0.34); 
+box-shadow: 12px 14px 6px 5px rgba(0,0,0,0.34);
+  border: solid 1px color: gray;
+      }      
+      
+.table tbody th {
+  background-color: Black;
+  color: white;
+      }
+    
+.table tbody tr:nth-child(even) td {
+  background-color: #f1f1f1;
+}
+
+.table tbody tr:hover td {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+
